@@ -51,10 +51,7 @@ function App() {
     <>
       <h1>My Agora States!</h1>
       <Form addDiscussion={addDiscussion}></Form>
-      <Discussions
-        discussions={discussions}
-        deleteDiscussion={deleteDiscussion}
-      ></Discussions>
+      <Discussions discussions={discussions} deleteDiscussion={deleteDiscussion}></Discussions>
     </>
   );
 }
